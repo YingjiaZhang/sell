@@ -1,9 +1,17 @@
 <template>
-  <div class="header"> header </div>
+  <div class="header">
+    
+  </div>
 </template>
 
 <script type = "text/ecmascript-6">
-export default {};
+export default {
+  props: {
+    seller: {
+      type: Object
+    }
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
